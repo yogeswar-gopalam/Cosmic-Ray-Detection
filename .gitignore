@@ -1,0 +1,59 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+*.log
+db.sqlite3
+/media/
+staticfiles/
+.env
+.env.local
+
+# Frontend
+node_modules/
+/Fontend/dist/
+/Fontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large files - NOT needed on GitHub, will be managed separately
+*.pth
+*.pt
+*.pkl
+*.h5
+/Backend/generator_model*.pth
+/Backend/converted_images/
+/Backend/converted_images_3rd/
+/Backend/dataset_final/
+/Backend/dataset_final_3rd/
+/Backend/dataset_resized/
+/Backend/dataset_resized_3rd/
+/Backend/detections/
+/Backend/gan_dataset/
+/Backend/image_dataset/
+/Backend/lco_data-*/
+/Backend/resized_images/
+/Backend/resized_images_3rd/
+/Backend/results/
+/Backend/root_dataset/
+/Backend/scripts/
+
+# OS
+Thumbs.db
